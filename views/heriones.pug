@@ -1,0 +1,16 @@
+doctype html
+html
+    head 
+     title='drama Inc'
+     link(rel="stylesheet", href="./style.css")
+    //-  script(src="/myscript.js") 
+    body
+     h1 #{title}
+     h2 Hello #{username}!
+     a(href='/') Heroines
+    a(href='/Heros') Heros
+
+     p='We have the best actors!'
+     form(action="/create", method="post")
+        input(type="text")
+        input(type="submit", value="Send")
